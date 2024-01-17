@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(/Recipes.jpg);
+  background-size: cover;
+}
+h1 {
+  font-size: 40px;
+  font-style: oblique;
+  color: rgb(20, 89, 20);
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 10px 70px;
+  box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  line-height: 80px;
+}
+
+.container a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: bisque;
+  background-color: rgb(147, 80, 104);
+  border-radius: 30px;
+  padding: 0px 40px;
+  margin-top: 15px;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  min-width: 170px;
+  text-align: center;
+}
+
+a:hover {
+  font-size: 20px;
+  background-color: bisque;
+  color: rgb(147, 80, 104);
+  transition: 0.3s;
+}
