@@ -3,15 +3,18 @@ body {
   font-family: sans-serif;
   background-image: url(/Recipes.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(218, 245, 218);
 }
 h1 {
   font-size: 40px;
   font-style: oblique;
-  color: rgb(20, 89, 20);
+  color: rgb(11, 93, 11);
+  border-width: 15px;
+  border-color: rgb(159, 209, 85);
   border-style: dotted;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 10px 70px;
-  box-shadow: 7px 7px 13px rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -43,4 +46,11 @@ a:hover {
   background-color: bisque;
   color: rgb(147, 80, 104);
   transition: 0.3s;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+    padding: 7px 60px;
+  }
 }
